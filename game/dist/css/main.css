@@ -1,0 +1,59 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  color: #fff;
+}
+
+.main-container {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+.main-container .heading {
+  font-size: 4rem;
+}
+
+.main-container .game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container input {
+  font-size: 3rem;
+  padding: 1rem 0;
+  width: 14rem;
+}
+
+.main-container .btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 3rem;
+  outline: none;
+  padding: 1rem 1.3rem;
+  margin: 3rem 0;
+}
+
+.main-container .computernumber {
+  font-size: 4rem;
+}
+
+.main-container .right {
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
