@@ -1,0 +1,39 @@
+@import 'reset';
+@import 'clr';
+
+body {
+  background-color: $main-clr;
+  color: $text-clr;
+}
+.main-container {
+  padding: 10% 15%;
+  text-align: center;
+  & .heading {
+    font-size: 4rem;
+  }
+  & .game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  & input {
+    font-size: 3rem;
+    padding: 1rem 0;
+    width: 14rem;
+  }
+  & .btn {
+    background-color: $btn-clr;
+    color: $text-clr;
+    border-radius: 10px;
+    font-size: 3rem;
+    outline: none;
+    padding: 1rem 1.3rem;
+    margin: 3rem 0;
+  }
+  & .computernumber {
+    font-size: 4rem;
+  }
+  & .right {
+    text-align: left;
+  }
+}
